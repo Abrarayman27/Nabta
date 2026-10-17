@@ -162,7 +162,7 @@ These are proposed evaluation measures, not reported outcomes.
 
 ## Project Resources
 
-- **Behance:** [View my work](https://www.behance.net/abrarayman)
+- **Behance:** [View my work](https://www.behance.net/gallery/257241891/Nabta-Mobile-App-UXUI-Design-Case-Study)
 - **LinkedIn:** [Connect with me](https://www.linkedin.com/in/abrar-ayman/)
 
 ## About the Designer
