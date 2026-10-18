@@ -1,14 +1,37 @@
+<div align="center">
+
+<img src="assets/banner.svg" alt="Nabta — Grow with Confidence. An end-to-end product design case study." width="100%">
+
+<br>
+
 # Nabta — Grow with Confidence
 
 **An end-to-end product design case study for a more connected plant ownership experience.**
 
+<br>
+
+![Role](https://img.shields.io/badge/Role-Product%20Designer-2E7D32?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Mobile%20Application-66BB6A?style=for-the-badge&labelColor=1F2937)
+![Tools](https://img.shields.io/badge/Tools-Figma%20%C2%B7%20FigJam%20%C2%B7%20Notion-1F2937?style=for-the-badge)
+
+<br>
+
+[The Problem](#the-problem) · [Key Insight](#the-key-insight) · [Research](#research-and-discovery) · [Approach](#design-approach) · [Brand](#brand-identity-and-design-system) · [Product](#the-product-experience) · [Testing](#usability-testing-and-iteration) · [Pricing](#transparent-pricing) · [Resources](#project-resources) · [About](#about-the-designer)
+
+</div>
+
+<br>
+
 Nabta explores how digital product design can support the entire plant ownership journey, from discovering the right plant to maintaining its health long after purchase.
 
-The project reframes plant shopping as the beginning of a relationship, not the end of a transaction.
+> [!TIP]
+> The project reframes plant shopping as the beginning of a relationship, not the end of a transaction.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Project Overview
+
+<img src="assets/stats.svg" alt="28 survey participants, 8 lifecycle stages, 6 core tasks tested, 4 user flows mapped" width="100%">
 
 | | Details |
 |---|---|
@@ -21,6 +44,8 @@ The project reframes plant shopping as the beginning of a relationship, not the 
 | **Core Tasks Tested** | 6 |
 | **User Flows Mapped** | 4 |
 
+<img src="assets/divider.svg" alt="" width="100%">
+
 ## The Problem
 
 ### Buying a plant is easy. Keeping it alive isn't.
@@ -29,7 +54,10 @@ Beginner plant owners often rely on disconnected sources such as social media, s
 
 Although each source may provide useful information, the overall experience can feel fragmented. Choosing a suitable plant is only one part of a longer journey involving delivery, daily care, diagnosis, and recovery.
 
-**The design challenge:** How might we create an experience that helps people choose the right plant and continues supporting them throughout ownership?
+> [!IMPORTANT]
+> **The design challenge:** How might we create an experience that helps people choose the right plant and continues supporting them throughout ownership?
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## The Key Insight
 
@@ -39,9 +67,13 @@ Journey mapping shifted the focus from the purchase itself to the complete plant
 
 Nabta was designed around eight connected stages:
 
+<img src="assets/lifecycle.svg" alt="Discover, Decide, Purchase, Receive, Care, Diagnose, Recover, Re-engage" width="100%">
+
 **Discover → Decide → Purchase → Receive → Care → Diagnose → Recover → Re-engage**
 
 This perspective informed the product structure, the organization of key features, and the design of the core user journeys.
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Research and Discovery
 
@@ -56,39 +88,50 @@ Research activities included:
 
 The resulting design direction emphasized plant suitability, clear purchasing information, accessible care guidance, and recovery support.
 
-*The sample was limited and directional; findings should not be interpreted as representative of all plant owners.*
+> [!NOTE]
+> *The sample was limited and directional; findings should not be interpreted as representative of all plant owners.*
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Design Approach
 
-### 01 — Problem
+```mermaid
+flowchart LR
+    A["01<br/>Problem"] --> B["02<br/>Research"] --> C["03<br/>Insight"] --> D["04<br/>Brand"] --> E["05<br/>Product"] --> F["06<br/>Testing and Results"]
+    classDef step fill:#DCEFD9,stroke:#2E7D32,stroke-width:2px,color:#1F2937;
+    class A,B,C,D,E,F step;
+```
 
-Identify the disconnect between purchasing a plant and successfully caring for it over time.
+<details open>
+<summary><b>Expand the six steps</b></summary>
 
-### 02 — Research
+<br>
 
-Explore user behaviors, expectations, and existing alternatives to understand where the experience breaks down.
+| Step | Stage | What it means |
+|:---:|---|---|
+| **01** | **Problem** | Identify the disconnect between purchasing a plant and successfully caring for it over time. |
+| **02** | **Research** | Explore user behaviors, expectations, and existing alternatives to understand where the experience breaks down. |
+| **03** | **Insight** | Reframe the product around plant ownership rather than treating shopping as the primary destination. |
+| **04** | **Brand** | Develop a calm, natural, and trustworthy visual identity supported by consistent interface patterns. |
+| **05** | **Product** | Translate the research direction into user flows, information architecture, plant discovery, product details, and profile experiences. |
+| **06** | **Testing and Results** | Use observed user behavior and feedback to identify opportunities for improving navigation, information hierarchy, and feature discoverability. |
 
-### 03 — Insight
+</details>
 
-Reframe the product around plant ownership rather than treating shopping as the primary destination.
-
-### 04 — Brand
-
-Develop a calm, natural, and trustworthy visual identity supported by consistent interface patterns.
-
-### 05 — Product
-
-Translate the research direction into user flows, information architecture, plant discovery, product details, and profile experiences.
-
-### 06 — Testing and Results
-
-Use observed user behavior and feedback to identify opportunities for improving navigation, information hierarchy, and feature discoverability.
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Brand Identity and Design System
 
 The visual identity combines organic cues with a structured interface to create an experience that feels approachable, clear, and trustworthy.
 
 ### Color Palette
+
+<img src="assets/palette.svg" alt="Nabta colour palette with hex values" width="100%">
+
+<details>
+<summary><b>View the palette as a table</b></summary>
+
+<br>
 
 | Token | Color | Hex |
 |---|---|---|
@@ -101,6 +144,8 @@ The visual identity combines organic cues with a structured interface to create 
 | Terracotta Red | Error | `#D32F2F` |
 | Info Blue | Information | `#0288D1` |
 
+</details>
+
 ### Typography
 
 - **Plus Jakarta Sans:** Latin interface typography and wordmark.
@@ -108,21 +153,33 @@ The visual identity combines organic cues with a structured interface to create 
 
 The type scale uses a clear hierarchy for display text, headings, body copy, captions, and labels.
 
+<img src="assets/divider.svg" alt="" width="100%">
+
 ## The Product Experience
 
 Nabta's core mobile experience includes five key areas:
 
-- **Welcome:** Introduces the product and establishes the first impression.
-- **Discover:** Helps users explore plants and personalized recommendations.
-- **Shop:** Supports browsing and filtering.
-- **Plant Details:** Brings plant suitability, care information, and total price together to help users make informed decisions.
-- **Profile:** Organizes orders, wishlist items, and settings.
+| Area | Purpose |
+|---|---|
+| **Welcome** | Introduces the product and establishes the first impression. |
+| **Discover** | Helps users explore plants and personalized recommendations. |
+| **Shop** | Supports browsing and filtering. |
+| **Plant Details** | Brings plant suitability, care information, and total price together to help users make informed decisions. |
+| **Profile** | Organizes orders, wishlist items, and settings. |
 
-A key design decision was to present suitability, care information, and total cost together on the plant details screen, helping users evaluate whether a plant fits their needs before committing.
+> [!IMPORTANT]
+> A key design decision was to present suitability, care information, and total cost together on the plant details screen, helping users evaluate whether a plant fits their needs before committing.
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Usability Testing and Iteration
 
 Testing highlighted opportunities to improve the experience at important moments in the plant ownership journey.
+
+<details open>
+<summary><b>Observations and design responses</b></summary>
+
+<br>
 
 | Area | Observation | Design Response |
 |---|---|---|
@@ -132,7 +189,12 @@ Testing highlighted opportunities to improve the experience at important moments
 | My Plants | Users expected purchases to appear in their plants experience. | Connect order completion with ownership. |
 | Diagnosis | Users were unsure where to start. | Introduce a clear “Something's Wrong” entry point. |
 
-These decisions reflect the project's usability observations and intended design responses. Quantitative improvements should only be reported when supported by measured results.
+</details>
+
+> [!NOTE]
+> These decisions reflect the project's usability observations and intended design responses. Quantitative improvements should only be reported when supported by measured results.
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Transparent Pricing
 
@@ -140,16 +202,23 @@ Nabta explores showing the complete cost before the final purchase decision.
 
 **Example breakdown**
 
-- Plant: 500 EGP
-- Delivery: 50 EGP
-- Fees: 25 EGP
-- **Total: 575 EGP**
+| Item | Amount |
+|---|---:|
+| Plant | 500 EGP |
+| Delivery | 50 EGP |
+| Fees | 25 EGP |
+| **Total** | **575 EGP** |
 
 This design decision aims to reduce uncertainty and help users understand the full cost upfront.
 
+<img src="assets/divider.svg" alt="" width="100%">
+
 ## What I Would Measure Next
 
-Future evaluation could examine:
+<details>
+<summary><b>Future evaluation could examine</b></summary>
+
+<br>
 
 - Plant discovery and selection task completion.
 - Time required to identify a suitable plant.
@@ -158,12 +227,24 @@ Future evaluation could examine:
 - Engagement with care reminders.
 - Users' ability to identify appropriate recovery actions when a plant has a problem.
 
-These are proposed evaluation measures, not reported outcomes.
+</details>
+
+> [!NOTE]
+> These are proposed evaluation measures, not reported outcomes.
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## Project Resources
 
+<p align="left">
+  <a href="https://www.behance.net/gallery/257241891/Nabta-Mobile-App-UXUI-Design-Case-Study"><img src="https://img.shields.io/badge/Behance-View%20my%20work-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance: View my work"></a>
+  <a href="https://lnkd.in/p/ekJZp3Hc"><img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20me-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: Connect with me"></a>
+</p>
+
 - **Behance:** [View my work](https://www.behance.net/gallery/257241891/Nabta-Mobile-App-UXUI-Design-Case-Study)
 - **LinkedIn:** [Connect with me](https://lnkd.in/p/ekJZp3Hc)
+
+<img src="assets/divider.svg" alt="" width="100%">
 
 ## About the Designer
 
@@ -177,8 +258,14 @@ My work focuses on understanding the problem behind the interface and designing 
 
 Further work could explore more personalized plant recommendations, improved long-term care guidance, and additional validation of the ownership experience across different plant types and user needs.
 
----
+<img src="assets/divider.svg" alt="" width="100%">
+
+<div align="center">
 
 **Nabta — Grow with Confidence.**
 
 *An independent product design case study exploring the full plant ownership journey.*
+
+<a href="#nabta--grow-with-confidence">Back to top</a>
+
+</div>
